@@ -1,2 +1,3 @@
-const results = await Promise.all(resultingPromises);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const lastElement = arr => arr[arr.length - 1];
+console.log("0 && 1 = "+(0 && 1));
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
