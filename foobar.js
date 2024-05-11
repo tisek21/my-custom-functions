@@ -1,1 +1,1 @@
-const channelName = getChannelName(channel);
+const result = await makeHttpRequest(url);
