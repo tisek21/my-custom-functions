@@ -1,1 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
+const isArray = (arr) => Array.isArray(arr);
+const isTabInView = () => !document.hidden;
+const flattenedArray = arr => [].concat(...arr);
