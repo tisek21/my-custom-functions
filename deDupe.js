@@ -1,3 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-console.log(1 +  "2" + "2");
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
