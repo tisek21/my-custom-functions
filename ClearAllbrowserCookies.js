@@ -1,2 +1,1 @@
-const results = await Promise.all(resultingPromises);
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const goToTop = () => window.scrollTo(0, 0);
