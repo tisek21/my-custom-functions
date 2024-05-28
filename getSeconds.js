@@ -1,2 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+var c = new Counter(); c.add(); c.add(); c.add();
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
