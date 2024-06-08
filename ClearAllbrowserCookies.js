@@ -1,2 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const appName = getAppName(channel);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
