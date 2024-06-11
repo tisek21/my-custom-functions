@@ -1,2 +1,2 @@
-const isTabInView = () => !document.hidden;
-console.log("1 && 2 = "+(1 && 2));
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const minNumber = arr => Math.min(...arr);
