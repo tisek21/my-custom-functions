@@ -1,1 +1,3 @@
-console.log( "A" - "B" + 2);
+const isEmptyArray = arr => !arr.length;
+const flattenedArray = arr => [].concat(...arr);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
