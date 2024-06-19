@@ -1,1 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
+console.log( "A" - "B" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
