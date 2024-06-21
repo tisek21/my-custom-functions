@@ -1,2 +1,1 @@
-console.log( "A" - "B" + "2");
-const randomBoolean = () => Math.random() >= 0.5;
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
