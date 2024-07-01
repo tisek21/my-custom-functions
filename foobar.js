@@ -1,1 +1,2 @@
-const isEven = (num) => num % 2 === 0;
+console.log(typeof typeof 1);
+var pattern = {};
