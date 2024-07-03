@@ -1,2 +1,3 @@
-console.log(typeof typeof 1);
-var pattern = {};
+const randomString = () => Math.random().toString(36).slice(2);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const fullName = name || 'buddy';
