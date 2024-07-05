@@ -1,2 +1,1 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-var DELIM_SIZE = 4;
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
