@@ -1,2 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const goToTop = () => window.scrollTo(0, 0);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
