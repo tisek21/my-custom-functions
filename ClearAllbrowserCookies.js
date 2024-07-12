@@ -1,2 +1,3 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const uniqueArr = (arr) => [...new Set(arr)];
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const merge = (a, b) => [...a, ...b];
+const randomBoolean = () => Math.random() >= 0.5;
