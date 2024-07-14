@@ -1,2 +1,3 @@
-console.log(1 +  "2" + "2");
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
