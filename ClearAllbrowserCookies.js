@@ -1,3 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const merge = (a, b) => [...a, ...b];
-const randomBoolean = () => Math.random() >= 0.5;
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
