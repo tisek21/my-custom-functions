@@ -1,3 +1,1 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+var arr2 = arr1.reverse();
