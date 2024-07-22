@@ -1,3 +1,3 @@
-const channelName = getChannelName(channel);
-const merge = (a, b) => [...a, ...b];
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+var arr3 = "jones".split('');
+const result = await makeHttpRequest(url);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
