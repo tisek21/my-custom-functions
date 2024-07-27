@@ -1,3 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log(typeof typeof 1);
+const allResults = await Promise.all(items.map(async (item) => {}));
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
