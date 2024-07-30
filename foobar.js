@@ -1,3 +1,2 @@
-console.log(typeof typeof 1);
-const allResults = await Promise.all(items.map(async (item) => {}));
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+var arr3 = "jones".split('');
