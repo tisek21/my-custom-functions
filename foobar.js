@@ -1,2 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-var arr3 = "jones".split('');
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
