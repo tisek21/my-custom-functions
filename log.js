@@ -1,2 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+var arr3 = "jones".split('');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const result = await makeHttpRequest(url);
