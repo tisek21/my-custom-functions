@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-const stringReverse = str => str.split("").reverse().join("");
+function myAPITS(someString: string, someNum: number) { ... };
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
