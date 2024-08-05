@@ -1,2 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-const appName = getAppName(channel);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const flattenedArray = arr => [].concat(...arr);
